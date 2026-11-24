@@ -1,0 +1,19 @@
+{
+  "name": "antigravity-external-terminal-bridge",
+  "version": "1.2.0",
+  "description": "Antigravity plugin and MCP server for launching (with Windows UAC), pairing, and operating external Windows Terminals over authenticated loopback TCP with ConPTY progress bars, UTF-8/GB18030 decoding, and timeout job promotion.",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/czhovo/antigravity-external-terminal-bridge.git"
+  },
+  "scripts": {
+    "build:conpty": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-conpty.ps1",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.5",
+    "zod": "^3.25.76"
+  }
+}

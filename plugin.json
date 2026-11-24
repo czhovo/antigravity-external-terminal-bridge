@@ -1,0 +1,20 @@
+{
+  "name": "external-terminal-bridge",
+  "displayName": "External Terminal Bridge",
+  "version": "1.2.0",
+  "description": "Launch (with standard Windows UAC for Administrator terminals), pair, and operate user-selected external Windows Terminals over authenticated loopback TCP.",
+  "author": {
+    "name": "czhovo",
+    "url": "https://github.com/czhovo"
+  },
+  "homepage": "https://github.com/czhovo/antigravity-external-terminal-bridge",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/czhovo/antigravity-external-terminal-bridge"
+  },
+  "suggestedPrompts": [
+    "拉起一个管理员外部终端（弹出 UAC 授权）并检查权限与当前目录",
+    "连接我刚手动启动的外部终端并执行指定命令",
+    "在外部终端启动开发服务器并在后台持续观察输出"
+  ]
+}

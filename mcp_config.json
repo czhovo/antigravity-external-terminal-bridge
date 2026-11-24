@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "external-terminal-bridge": {
+      "command": "node",
+      "args": [
+        "./scripts/mcp-server.mjs"
+      ],
+      "env": {
+        "EXTERNAL_TERMINAL_BRIDGE_REV": "1.2.0"
+      }
+    }
+  }
+}

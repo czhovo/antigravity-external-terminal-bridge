@@ -1,0 +1,7 @@
+node_modules/
+scripts/conpty-runner.exe
+pairing-code.json
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
